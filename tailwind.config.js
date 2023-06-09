@@ -12,6 +12,9 @@ module.exports = {
         kronaOne: ["Krona One", "sans-serif"],
         roboto: ["Roboto", "sans-serif"],
       },
+      boxShadow: {
+        "3xl": "0 15px 15px -10px rgba(91, 92, 227, 0.25)",
+      },
     },
   },
   plugins: [],
