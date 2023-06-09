@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <div className="grid grid-cols-6">
+    <div className="grid grid-cols-6 w-[1600px]">
       {" "}
       <Link to="/" className="col-span-2 px-10  py-2  ">
         <img src={logo} alt="" className=" w-28  " />

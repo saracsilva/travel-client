@@ -5,7 +5,7 @@ import HomePage from "./pages/HomePage";
 
 function App() {
   return (
-    <div className="App h-full">
+    <div className="App h-full flex flex-col items-center">
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
