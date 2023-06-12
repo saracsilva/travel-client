@@ -4,9 +4,9 @@ import Button from "../components/Button";
 
 export default function HomePage() {
   return (
-    <div className="grid grid-cols-3 py-10 justify-center items-center place-items-stretch justify-items-center h-[full] w-[1600px]">
+    <div className="grid grid-cols-3 py-28 pt justify-center items-center place-items-stretch justify-items-center h-[full] w-[1600px]">
       {/* Travelers Image and Text */}
-      <div className=" col-span-1 pl-10 flex flex-col items-center justify-center text-4xl ">
+      <div className=" col-span-1 px-10 flex flex-col items-center justify-center text-4xl ">
         <img
           src={travelers}
           alt="Two travelers"
@@ -19,10 +19,10 @@ export default function HomePage() {
         <p className="font-thin ">new frontiers in travel!</p>
       </div>
       {/* Botoes login e signup */}
-      <div className=" col-span-2 flex items-center justify-center ">
-        <div className="grid grid-rows-5   w-9/12 bg-light-pink/25  rounded-[20px] h-full items-center justify-center relative z-0 ">
+      <div className=" col-span-2 flex items-center justify-center w-full px-10">
+        <div className="grid grid-rows-5   w-full  bg-light-pink/25  rounded-[20px] h-full items-center justify-center relative z-0 ">
           <span className=" row-span-1 bg-purple w-full  h-9 flex self-start  rounded-t-[20px] z-10 absolute inset-0"></span>{" "}
-          <div className=" row-span-4 flex flex-col px-10 pt-20  items-center  justify-center  ">
+          <div className=" row-span-4 row-start-2 row-end-5 flex flex-col px-10 pt-20  items-center  justify-center  ">
             <h1 className=" text-6xl font-kronaOne">Plan your next trip!</h1>
             <p className=" font-thin text-4xl pb-28">Let’s do this!</p>
             <Button
