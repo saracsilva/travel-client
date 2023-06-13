@@ -1,6 +1,7 @@
 import React from "react";
 import travelers from "../assets/travelers.svg";
 import Button from "../components/Button";
+import { Link } from "react-router-dom";
 
 export default function HomePage() {
   return (
@@ -25,17 +26,21 @@ export default function HomePage() {
           <div className=" row-span-4 row-start-2 row-end-5 flex flex-col px-10 pt-20  items-center  justify-center  ">
             <h1 className=" text-6xl font-kronaOne">Plan your next trip!</h1>
             <p className=" font-thin text-4xl pb-28">Let’s do this!</p>
-            <Button
-              text={"Signup"}
-              background={"bg-purple"}
-              color={"text-highlighter-green"}
-            />
-            <Button
-              text={"Login"}
-              border={true}
-              background="bg-white"
-              color={"text-purple"}
-            />
+            <Link to="/signup">
+              <Button
+                text={"Signup"}
+                background={"bg-purple"}
+                color={"text-highlighter-green"}
+              />
+            </Link>
+            <Link to="/login">
+              <Button
+                text={"Login"}
+                border={true}
+                background="bg-white"
+                color={"text-purple"}
+              />
+            </Link>
           </div>
         </div>
       </div>
